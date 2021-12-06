@@ -4,19 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Завдання 6</title>
+    <title>Завдання 8</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <a class="return-button" href="index.html">Повернутись на головну</a>
     <div class="container">
-      <input
-        type="text"
-        id="validation-input"
-        data-length="6"
-        placeholder="Please enter 6 symbols"
-      />
+      <form class="login-form">
+        <label>
+          Email
+          <input type="email" name="email" class="form-input" />
+        </label>
+        <label class="form-label">
+          Password
+          <input type="password" name="password" class="form-input" />
+        </label>
+        <button type="submit">Login</button>
+      </form>
     </div>
-    <script src="/js/module6/task_6.js"></script>
+    <script src="./js/task_8.js"></script>
   </body>
 </html>

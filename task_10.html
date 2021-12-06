@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Завдання 9</title>
+    <title>Завдання 10</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <a class="return-button" href="index.html">Повернутись на головну</a>
-    <div class="widget">
-      <p>Background color: <span class="color">-</span></p>
-      <button type="button" class="change-color">Change color</button>
+    <div id="controls">
+      <input type="number" min="1" max="100" step="1" />
+      <button type="button" data-create>Create</button>
+      <button type="button" data-destroy>Destroy</button>
     </div>
-    <script src="/js/module6/task_9.js"></script>
+
+    <div id="boxes"></div>
+    <script src="./js/task_10.js"></script>
   </body>
 </html>
